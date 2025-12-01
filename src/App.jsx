@@ -18,7 +18,7 @@ function App() {
     <>
       <h1>CountDown</h1>
       <div className="card">
-        <div style={{marginBottom: '10px',fontSize:'2rem'}}>count is {count}</div>
+        <div style={{marginBottom: '10px',fontSize:'2rem'}}>Count is {count}</div>
         <button onClick={() => addCount()} style={{marginRight: '10px',backgroundColor: "green"}}>
           +
         </button>
@@ -31,3 +31,4 @@ function App() {
 }
 
 export default App
+git
